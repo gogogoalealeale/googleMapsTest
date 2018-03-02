@@ -1,0 +1,331 @@
+@charset "UTF-8";
+
+@font-face {
+	font-family: Roboto;
+	src: url(../common/font/roboto-regular.ttf);
+}
+body {
+	font-family: Roboto,Microsoft JhengHei,Verdana,Geneva,sans-serif;
+	/*background-color: #cacaca;*/
+	background-color: #000;
+	/*cursor: none;*/
+	color: green;
+	/*overflow-y: hidden;*/
+	/*overflow-x: hidden;*/
+}
+html,
+body
+{
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+/*global*/
+.hide,
+.hidden
+{
+	display: none;
+}
+.section {
+	padding-top: 0.8vh;
+	padding-bottom: 0.8vh;
+}
+.align-center {
+	text-align: center;
+}
+.align-right {
+	text-align: right;
+}
+.align-left {
+	text-align: left;
+}
+.float-right
+{
+	float: right;
+}
+.float-left {
+	float: left;
+}
+img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+	margin: 0 auto;
+}
+.btn-fullWidth
+{
+	width: 100%;
+}
+.btn-fullWidth>.material-icons
+{
+	width: 20px;
+	vertical-align: middle;
+}
+
+/*material global*/
+body.askey input:not([type]):focus + label,
+body.askey input[type=text]:not(.browser-default):focus + label,
+body.askey input[type=password]:not(.browser-default):focus + label,
+body.askey input[type=email]:not(.browser-default):focus + label,
+body.askey input[type=url]:not(.browser-default):focus + label,
+body.askey input[type=time]:not(.browser-default):focus + label,
+body.askey input[type=date]:not(.browser-default):focus + label,
+body.askey input[type=datetime]:not(.browser-default):focus + label,
+body.askey input[type=datetime-local]:not(.browser-default):focus + label,
+body.askey input[type=tel]:not(.browser-default):focus + label,
+body.askey input[type=number]:not(.browser-default):focus + label,
+body.askey input[type=search]:not(.browser-default):focus + label,
+body.askey textarea.materialize-textarea:focus + label
+{
+	color: green;
+}
+body.askey input:not([type]):focus,
+body.askey input[type=text]:not(.browser-default):focus,
+body.askey input[type=password]:not(.browser-default):focus,
+body.askey input[type=email]:not(.browser-default):focus,
+body.askey input[type=url]:not(.browser-default):focus,
+body.askey input[type=time]:not(.browser-default):focus,
+body.askey input[type=date]:not(.browser-default):focus,
+body.askey input[type=datetime]:not(.browser-default):focus,
+body.askey input[type=datetime-local]:not(.browser-default):focus,
+body.askey input[type=tel]:not(.browser-default):focus,
+body.askey input[type=number]:not(.browser-default):focus,
+body.askey input[type=search]:not(.browser-default):focus,
+body.askey textarea.materialize-textarea:focus
+{
+	border-bottom: 1px solid green;
+	box-shadow: 0 1px 0 0 green;
+}
+body.askey input.valid:not([type]),
+body.askey input.valid:not([type]):focus,
+body.askey input[type=text].valid:not(.browser-default),
+body.askey input[type=text].valid:not(.browser-default):focus,
+body.askey input[type=password].valid:not(.browser-default),
+body.askey input[type=password].valid:not(.browser-default):focus,
+body.askey input[type=email].valid:not(.browser-default),
+body.askey input[type=email].valid:not(.browser-default):focus,
+body.askey input[type=url].valid:not(.browser-default),
+body.askey input[type=url].valid:not(.browser-default):focus,
+body.askey input[type=time].valid:not(.browser-default),
+body.askey input[type=time].valid:not(.browser-default):focus,
+body.askey input[type=date].valid:not(.browser-default),
+body.askey input[type=date].valid:not(.browser-default):focus,
+body.askey input[type=datetime].valid:not(.browser-default),
+body.askey input[type=datetime].valid:not(.browser-default):focus,
+body.askey input[type=datetime-local].valid:not(.browser-default),
+body.askey input[type=datetime-local].valid:not(.browser-default):focus,
+body.askey input[type=tel].valid:not(.browser-default),
+body.askey input[type=tel].valid:not(.browser-default):focus,
+body.askey input[type=number].valid:not(.browser-default),
+body.askey input[type=number].valid:not(.browser-default):focus,
+body.askey input[type=search].valid:not(.browser-default),
+body.askey input[type=search].valid:not(.browser-default):focus,
+body.askey textarea.materialize-textarea.valid,
+body.askey textarea.materialize-textarea.valid:focus,
+body.askey .select-wrapper.valid>input.select-dropdown
+{
+	border-bottom: 1px solid green;
+	-webkit-box-shadow: 0 1px 0 0 green;
+	box-shadow: 0 1px 0 0 green
+}
+
+/*map*/
+#map {
+	height: 100%;
+}
+.controls {
+  margin-top: 10px;
+  border: 1px solid transparent;
+  border-radius: 2px 0 0 2px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  height: 32px;
+  outline: none;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+#pac-input {
+  background-color: #fff;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 300;
+  margin-left: 12px;
+  margin-top: 10px;
+  padding: 0 11px 0 13px;
+  text-overflow: ellipsis;
+  width: 300px;
+}
+
+#pac-input:focus {
+  border-color: #4d90fe;
+}
+
+.pac-container {
+  font-family: Roboto;
+}
+
+#type-selector {
+  color: #fff;
+  background-color: #4d90fe;
+  padding: 5px 11px 0px 11px;
+}
+
+#type-selector label {
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 300;
+}
+#target {
+  width: 345px;
+}
+
+/*loading*/
+.preloader-wrapper {
+	position: fixed;
+	top: 50%;
+	left: calc(50% - 32px);
+}
+
+/*search input*/
+body>.searchFrame
+{
+	position: fixed;
+	top: 0;
+	left: 5%;
+	width: 88vw;
+	background-color: rgba(255, 255, 255, 0.7);
+	border-radius: 2px;
+	padding-top: 15px;
+	padding-right: 40px;
+	padding-left: 15px;
+}
+body>.searchFrame>.prefix
+{
+	top: 25px;
+}
+body>.searchFrame>.prefix-right
+{
+	right: 0;
+}
+.modal-overlay {
+	background: rgba(0,0,0,0);
+	z-index: -999 !important;
+}
+#modal-placeInfo
+{
+	/*transition: all .3s;*/
+}
+#modal-placeInfo .title
+{
+	font-size: 1.5em;
+}
+#modal-placeInfo .icon>img
+{
+	width: 30px;
+}
+#modal-placeInfo>.upIcon
+{
+	position: absolute;
+	top: 0;
+	left: 50%;
+	margin-left: -12px;
+	transition: all .5s;
+}
+#modal-placeInfo.showInfo>.upIcon
+{
+	transform: rotate(180deg);
+}
+#modal-placeInfo.modal
+{
+	overflow-y: hidden;
+}
+#modal-placeInfo.showInfo,
+#modal-placeInfo.modal.bottom-sheet.showInfo
+{
+	height: 95vh !important;
+	max-height: 95%;
+	overflow-y: hidden;
+}
+#modal-placeInfo>.routeList
+{
+	height: calc(95vh - 163px);
+	overflow-y: auto;
+	box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+#modal-placeInfo>.routeList>li
+{
+	padding-left: 20px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	border-top: solid 1px rgba(0, 128, 0, 0.35);
+	position: relative;
+}
+#modal-placeInfo>.routeList>li:after
+{
+	position: absolute;
+	content: attr(distance);
+	bottom: -10px;
+	left: 0;
+	padding-left: 20px;
+	padding-right: 5px;
+	font-size: 0.8em;
+	background-color: #fafafa;
+	z-index: 1;
+}
+
+/*directionBar*/
+#directionBar
+{
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 10vh;
+	background-color: green;
+	color: #fff;
+	text-align: center;
+	padding-top: 1.5vh;
+	font-size: 5vh;
+	padding-left: 10vw;
+	box-shadow: 0 8px 10px 1px rgba(0,0,0,0.05), 0 3px 14px 2px rgba(0,0,0,0.05), 0 5px 5px -3px rgba(0, 0, 0, 0.1);
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	-o-text-overflow: ellipsis;
+	overflow: hidden;
+}
+#directionBar>.back
+{
+	position: absolute;
+	left: 5px;
+	top: calc(50% - 2.2vh);
+	font-size: 5vh;
+}
+
+/*floor box*/
+#floorBox
+{
+	position: absolute;
+	right: 10px;
+}
+#floorBox>a
+{
+	display: block;
+	padding: 0 1rem;
+	background-color: #fff;
+	color: grey;
+}
+#floorBox>a.active
+{
+	background-color: green;
+	color: #fff;
+}
+
+/*button*/
+#cancelNavigation
+{
+	position: absolute;
+	bottom: 10px;
+	left: 50%;
+	margin-left: -57px;
+	opacity: .7;
+}

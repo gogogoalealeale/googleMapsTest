@@ -1,0 +1,60 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/jimmy/askeyindoormap/platforms/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pt-rPT/values-pt-rPT.xml",
+            "map": [
+                {
+                    "source": "/Users/jimmy/.gradle/caches/transforms-1/files-1.1/play-services-base-11.8.0.aar/71a703903a7f1a14e163019ad20ab736/res/values-pt-rPT/values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
+                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
+                        "startOffsets": "285,388,583,709,815,1042,1168,1316,1450,1697,1803,2004,2133,2351,2555,2649,2744",
+                        "endColumns": "102,194,125,105,226,125,147,133,246,105,200,128,217,203,93,94,111",
+                        "endOffsets": "387,582,708,814,1041,1167,1315,1449,1696,1802,2003,2132,2350,2554,2648,2743,2855"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,212,407,537,647,874,1004,1156,1498,1745,1855,2056,2189,2407,2615,2713,2812",
+                        "endColumns": "106,194,129,109,226,129,151,137,246,109,200,132,217,207,97,98,115",
+                        "endOffsets": "207,402,532,642,869,999,1151,1289,1740,1850,2051,2184,2402,2610,2708,2807,2923"
+                    }
+                },
+                {
+                    "source": "/Users/jimmy/askeyindoormap/platforms/android/app/src/main/res/values-pt-rPT/pgm_strings.xml",
+                    "from": {
+                        "startLines": "3,18,2,5,4,6,7,8,9,10,11,12,13,14,17,15,16",
+                        "startColumns": "2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2",
+                        "startOffsets": "110,2488,53,400,269,623,788,912,1080,1220,1396,1586,1739,1932,2379,2109,2275",
+                        "endColumns": "158,110,56,222,130,164,123,167,139,175,189,152,192,176,108,165,103",
+                        "endOffsets": "266,2596,107,620,397,785,909,1077,1217,1393,1583,1736,1929,2106,2485,2272,2376"
+                    },
+                    "to": {
+                        "startLines": "20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "2928,3089,3202,3261,3486,3619,3786,3912,4082,4224,4402,4594,4749,4944,5123,5234,5402",
+                        "endColumns": "160,112,58,224,132,166,125,169,141,177,191,154,194,178,110,167,105",
+                        "endOffsets": "3084,3197,3256,3481,3614,3781,3907,4077,4219,4397,4589,4744,4939,5118,5229,5397,5503"
+                    }
+                },
+                {
+                    "source": "/Users/jimmy/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.8.0.aar/8ab1aa525396f4a808734b0429831b39/res/values-pt-rPT/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "287",
+                        "endColumns": "203",
+                        "endOffsets": "490"
+                    },
+                    "to": {
+                        "startLines": "10",
+                        "startColumns": "4",
+                        "startOffsets": "1294",
+                        "endColumns": "203",
+                        "endOffsets": "1493"
+                    }
+                }
+            ]
+        }
+    ]
+}

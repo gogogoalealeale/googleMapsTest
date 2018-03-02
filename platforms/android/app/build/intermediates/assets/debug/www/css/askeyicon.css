@@ -1,0 +1,38 @@
+@font-face {
+  font-family: 'askeyicon';
+  src:  url('../font/askeyicon.eot?2bg2jo');
+  src:  url('../font/askeyicon.eot?2bg2jo#iefix') format('embedded-opentype'),
+    url('../font/askeyicon.ttf?2bg2jo') format('truetype'),
+    url('../font/askeyicon.woff?2bg2jo') format('woff'),
+    url('../font/askeyicon.svg?2bg2jo#askeyicon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.askeyicon {
+  display: inline-block;
+  font: normal normal normal 14px/1 askeyicon;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.placeIcon:before
+{
+  font: normal normal normal 14px/1 askeyicon;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.askeyicon-school:before,
+.placeIcon-school:before
+{
+  content: "\e90b";
+}
+.askeyicon-subway:before,
+.placeIcon-subway:before
+{
+  content: "\e90c";
+}

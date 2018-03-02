@@ -1,0 +1,32 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-android-play-services-gradle-release": {
+      "PLAY_SERVICES_VERSION": "11.+",
+      "PACKAGE_NAME": "com.askey.cordova.AskeyIndoorMap"
+    },
+    "cordova-plugin-device-orientation": {
+      "PACKAGE_NAME": "com.askey.cordova.AskeyIndoorMap"
+    },
+    "cordova-plugin-googlemaps": {
+      "API_KEY_FOR_ANDROID": "AIzaSyASTPfgBZChSMUuaC8BV9kMfwNw0r_Q560",
+      "PLAY_SERVICES_VERSION": "11.8.0",
+      "ANDROID_SUPPORT_V4_VERSION": "24.1.0",
+      "PACKAGE_NAME": "com.askey.cordova.AskeyIndoorMap"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.askey.cordova.AskeyIndoorMap"
+    }
+  },
+  "dependent_plugins": {
+    "com.googlemaps.ios": {
+      "PACKAGE_NAME": "com.askey.cordova.AskeyIndoorMap"
+    }
+  }
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<META HTTP-EQUIV="PRAGMA" CONTENT="NO-CACHE">  
+		<title>Askey Indoor Navigation</title>
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="common/plugin/materialize/css/materialize.min.css">
+		<link rel="stylesheet" href="common/plugin/font-awesome/css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/layout.css?ver=0.2">
+		<link rel="stylesheet" href="css/askeyicon.css?ver=0.2">
+	</head>
+	<body class="askey">
+		<div id="map"></div>
+		<div id="searchBar" class="input-field searchFrame">
+			<i class="material-icons prefix green-text btn-func">dehaze</i>
+			<input class="autocomplete" type="text" placeholder="搜尋地點">
+			<i class="material-icons prefix prefix-right grey-text btn-clear">clear</i>
+		</div>
+		<div id="floorBox"></div>
+		<a id="cancelNavigation" class="waves-effect waves-light btn green hidden">取消導航</a>
+		<div class="row hidden">
+			<div class="col 6s">
+				<form>
+					<div class="form-group">
+						<label for="formGroupExampleInput">Ponto origem</label>
+						<input type="text" class="form-control" id="formGroupExampleInput" placeholder="Número de 0 a 43">
+					</div>
+					<div class="form-group">
+						<label for="formGroupExampleInput2">  Ponto destino</label>
+						<input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Número de 0 a 43">
+					</div>
+					<div class="form-group">
+						<label for="formGroupExampleInput3">Ponto danificado</label>
+						<input type="text" class="form-control p3" id="formGroupExampleInput3" title="Digite ou clique no ponto para remover" placeholder="Digite ou clique" ></br></div>
+						<div id ="button"class="form-group">
+						<button onclick="initNavigation()" id ="send" type="button" class="button" >Calcular rota</button>
+					</div>
+				</form>
+			</div>
+			<div class="col 6s">
+				<div id="lista" class="listinha">
+					<ul id="cam">
+						<li>...</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div id="modal-placeInfo" class="modal bottom-sheet">
+			<div class="modal-content">
+				<span class="title"></span>
+				<span class="icon"></span>
+				<p class="address"></p>
+			</div>
+			<div class="modal-footer">
+				<div class="row">
+					<div class="col s6 startFrame">
+						<button class="modal-action waves-effect waves-green green btn btn-fullWidth btn-navigation">
+							<i class="material-icons">navigation</i> 開始
+						</button>
+					</div>
+					<div class="col s6 cancelFrame hidden">
+						<button class="modal-action modal-close waves-effect waves-green white green-text btn btn-fullWidth btn-cancel">
+							取消
+						</button>
+					</div>
+					<div class="col s6 routeFrame">
+						<button class="modal-action waves-effect waves-green white green-text btn btn-fullWidth btn-route">
+							<i class="material-icons">directions_walk</i> 路線
+						</button>
+					</div>
+				</div>
+			</div>
+			<ul class="routeList hidden"></ul>
+			<i class="material-icons upIcon hidden">keyboard_arrow_up</i>
+		</div>
+		<div id="directionBar" class="hidden">
+			<i class="material-icons back">keyboard_arrow_left</i>
+			<div class="content"></div>
+		</div>
+
+		<script type="text/javascript" src="cordova.js" onload="javascript:window.isCordovaApp = true;"></script>
+		<script type="text/javascript" src="common/plugin/jquery-2.1.4.min.js"></script>
+		<script src="common/plugin/materialize/js/materialize.min.js"></script>
+		<script src="common/plugin/materialize/js/form_autocomplete.js"></script>
+		<script type="text/javascript" src="js/map.js"></script>
+		<!-- <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyASTPfgBZChSMUuaC8BV9kMfwNw0r_Q560&callback=initMap&libraries=geometry,places"></script> -->
+	</body>
+</html>

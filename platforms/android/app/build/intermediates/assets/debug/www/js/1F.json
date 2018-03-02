@@ -1,0 +1,26 @@
+[
+  {
+    "label": "大門",
+    "id": 0,
+    "lat": 25.000771,
+    "lng": 121.488175,
+    "proxpnt": [],
+    "walkable": true
+  },
+  {
+    "label": "2",
+    "id": 1,
+    "lat": 25.000771,
+    "lng": 121.488200,
+    "proxpnt": [],
+    "walkable": false
+  },
+  {
+    "label": "電梯",
+    "id": 2,
+    "lat": 25.000757,
+    "lng": 121.488311,
+    "proxpnt": [],
+    "walkable": true
+  }
+]

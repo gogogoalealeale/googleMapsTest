@@ -1,0 +1,31 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-android-play-services-gradle-release": {
+      "PACKAGE_NAME": "com.askey.cordova.AskeyIndoorMap"
+    },
+    "cordova-plugin-device-orientation": {
+      "PACKAGE_NAME": "com.askey.cordova.AskeyIndoorMap"
+    },
+    "cordova-plugin-googlemaps": {
+      "API_KEY_FOR_IOS": "AIzaSyDHdMrY3yjUtVvytPa4yflrdxm-YKlz0js",
+      "LOCATION_WHEN_IN_USE_DESCRIPTION": "This app wants to get your location while this app runs only.",
+      "LOCATION_ALWAYS_USAGE_DESCRIPTION": "This app wants to get your location always, even this app runs in background.",
+      "PACKAGE_NAME": "com.askey.cordova.AskeyIndoorMap"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.askey.cordova.AskeyIndoorMap"
+    }
+  },
+  "dependent_plugins": {
+    "com.googlemaps.ios": {
+      "PACKAGE_NAME": "com.askey.cordova.AskeyIndoorMap"
+    }
+  }
+}

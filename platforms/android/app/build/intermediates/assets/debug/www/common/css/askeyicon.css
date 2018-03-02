@@ -1,0 +1,51 @@
+@font-face {
+  font-family: 'askeyicon';
+  src:  url('../font/askeyicon.eot?4le3o3');
+  src:  url('../font/askeyicon.eot?4le3o3#iefix') format('embedded-opentype'),
+    url('../font/askeyicon.ttf?4le3o3') format('truetype'),
+    url('../font/askeyicon.woff?4le3o3') format('woff'),
+    url('../font/askeyicon.svg?4le3o3#askeyicon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="askeyicon-"], [class*=" askeyicon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'askeyicon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  /*line-height: 1;*/
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.askeyicon-the-weather-01:before {
+  content: "\e900";
+}
+.askeyicon-the-weather-02:before {
+  content: "\e901";
+}
+.askeyicon-the-weather-03:before {
+  content: "\e902";
+}
+.askeyicon-the-weather-04:before {
+  content: "\e903";
+}
+.askeyicon-the-weather-07:before {
+  content: "\e904";
+}
+.askeyicon-the-weather-08:before {
+  content: "\e905";
+}
+.askeyicon-the-weather-09:before {
+  content: "\e906";
+}
+.askeyicon-the-weather-10:before {
+  content: "\e907";
+}
+

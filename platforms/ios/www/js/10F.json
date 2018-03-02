@@ -1,0 +1,130 @@
+[
+  {
+    "label": "電梯",
+    "id": 0,
+    "lat": 25.000757,
+    "lng": 121.488311,
+    "proxpnt": [],
+    "walkable": true
+  },
+  {
+    "label": "1",
+    "id": 1,
+    "lat": 25.000661,
+    "lng": 121.488311,
+    "proxpnt": [],
+    "walkable": false
+  },
+  {
+    "label": "2",
+    "id": 2,
+    "lat": 25.000735,
+    "lng": 121.488252,
+    "proxpnt": [],
+    "walkable": false
+  },
+  {
+    "label": "3",
+    "id": 3,
+    "lat": 25.000661,
+    "lng": 121.488252,
+    "proxpnt": [],
+    "walkable": false
+  },
+  {
+    "label": "4",
+    "id": 4,
+    "lat": 25.000661,
+    "lng": 121.488373,
+    "proxpnt": [],
+    "walkable": false
+  },
+  {
+    "label": "5",
+    "id": 5,
+    "lat": 25.000661,
+    "lng": 121.488468,
+    "proxpnt": [],
+    "walkable": false
+  },
+  {
+    "label": "廁所",
+    "id": 6,
+    "lat": 25.000803,
+    "lng": 121.488468,
+    "proxpnt": [],
+    "walkable": true
+  },
+  {
+    "label": "7",
+    "id": 7,
+    "lat": 25.000616,
+    "lng": 121.488374,
+    "proxpnt": [],
+    "walkable": false
+  },
+  {
+    "label": "8",
+    "id": 8,
+    "lat": 25.000616,
+    "lng": 121.488468,
+    "proxpnt": [],
+    "walkable": false
+  },
+  {
+    "label": "9",
+    "id": 9,
+    "lat": 25.000616,
+    "lng": 121.488754,
+    "proxpnt": [],
+    "walkable": false
+  },
+  {
+    "label": "廁所",
+    "id": 10,
+    "lat": 25.000863,
+    "lng": 121.488754,
+    "proxpnt": [],
+    "walkable": true
+  },
+  {
+    "label": "11",
+    "id": 11,
+    "lat": 25.000616,
+    "lng": 121.488884,
+    "proxpnt": [],
+    "walkable": false
+  },
+  {
+    "label": "貨梯",
+    "id": 12,
+    "lat": 25.000863,
+    "lng": 121.488884,
+    "proxpnt": [],
+    "walkable": true
+  },
+  {
+    "label": "13",
+    "id": 13,
+    "lat": 25.000616,
+    "lng": 121.48892,
+    "proxpnt": [],
+    "walkable": false
+  },
+  {
+    "label": "董事長室",
+    "id": 14,
+    "lat": 25.000356,
+    "lng": 121.48892,
+    "proxpnt": [],
+    "walkable": true
+  },
+  {
+    "label": "15",
+    "id": 15,
+    "lat": 25.000356,
+    "lng": 121.488252,
+    "proxpnt": [],
+    "walkable": false
+  }
+]
